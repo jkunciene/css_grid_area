@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "melynas ruzavas ruzavas salotinis zalsvas"
+                        "violetinis pilkas item7 item3 zalsvas"
+                        "item8 item8 item8 item8 zalsvas"
+                        "item9 item9 item10 item11 zalsvas"
+                        "item9 item9 item12 item13 zalsvas"
+}
+.item1{
+    background-color: #2762c2;
+    grid-area: melynas;
+}
+.item2{
+    background-color: #e33077;
+    grid-area: ruzavas;
+}
+.item3{
+    background-color: #b0b019;
+    grid-area: salotinis;
+}
+.item4{
+    background-color: #097560;
+    grid-area: zalsvas;
+}
+.item5{
+    background-color: #7805a6;
+    grid-area: violetinis;
+}
+.item6{
+    background-color: #585c54;
+    grid-area: pilkas;
+}
+.item7{
+    background-color: #eaede6;
+    grid-area: item7;
+}
+.item8{
+    background-color: #61b3c2;
+    grid-area: item8;
+}
+.item9{
+    background-color: #44543c;
+    grid-area: item9;
+}
+.item10{
+    background-color: #d45515;
+    grid-area: item10;
+}
+.item11{
+    background-color: #dade68;
+    grid-area: item11;
+}
+.item12{
+    background-color: #5e5e4f;
+    grid-area: item12;
+}
+.item13{
+    background-color: #75180c;
+    grid-area: item13;
+}
